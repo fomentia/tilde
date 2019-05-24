@@ -1,0 +1,7 @@
+#!/bin/sh
+xrandr --newmode 2560x1440R 295.42 2560 2568 2600 2640 1440 1478 1486 1492 +hsync -vsync
+xrandr --addmode HDMI1 2560x1440R
+xrandr --newmode 3840x2160R 300.00 3840 3888 3920 4000 2160 2163 2168 2222 +hsync -vsync
+xrandr --addmode HDMI1 3840x2160R
+
+xrandr --output HDMI1 --mode 2560x1440R
